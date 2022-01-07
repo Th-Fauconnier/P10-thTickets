@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@FeignClient(name= "feignClient", url="localhost:8181")
+@FeignClient(name= "lib7", url="localhost:8181")
 public interface FeignProxy {
 
     @PostMapping("/authenticate")

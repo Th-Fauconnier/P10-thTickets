@@ -6,7 +6,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 
 @SpringBootApplication(scanBasePackages="com.emilie.library7WebClient")
-@EnableFeignClients
+@EnableFeignClients/*("com.emilie.library7WebClient")*/
 public class Library7WebClientApplication {
 
     public static void main(String[] args) {
